@@ -58,3 +58,35 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+### FMOD Unity Integration ###
+# Never ignore DLLs in the FMOD subfolder, so make sure that the FMOD-folder is in the correct path.
+!/[Aa]ssets/Plugins/FMOD/**/*.dll
+
+# Don't ignore images and gizmos used by FMOD in the Unity Editor
+!/[Aa}ssets/Gizmos/FMOD/*
+!/[Aa}ssets/Editor Default Resources/FMOD/*
+
+# Ignore the Cache-file since it is updated locally either way
+/[Aa]ssets/**/FMODStudioCache.asset
+/[Aa]ssets/**/FMODStudioCache.asset.meta
+/[Aa]ssets/Plugins/FMOD/Cache.meta
+/[Aa]ssets/Plugins/FMOD/Cache/Editor.meta
+
+# Ignore .cache, .user and .unsaved folders in FMOD project.
+/[Pp]lugins/FMOD/**/.cache
+/[Pp]lugins/FMOD/**/.unsaved
+/[Pp]lugins/FMOD/**/.user
+
+# Don't ignore the Build folder in the FMOD project.
+!/[Pp]lugins/FMOD/**/Build/
+
+# Log-files
+fmod.log
+fmod_editor.log
+
+# FMOD 1.10.x (Legacy)
+/Assets/FMODAssets/*
+/Assets/FMODStudioCache.meta
+
+# Ignore Profiler Sessions
+/[Pp]lugins/FMOD/**/Metadata/ProfilerSession/
