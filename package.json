@@ -23,6 +23,6 @@
   "samples" : [
     "displayName": "Samples",
     "description": "Samples",
-    "path": "Samples~/Content"
+    "path": "Samples~/Content/"
   ]
 }
