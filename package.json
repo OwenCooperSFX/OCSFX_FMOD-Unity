@@ -19,5 +19,10 @@
     "email": "owencoopersfx@gmail.com",
     "url": "https://www.owencoopersound.com"
   },
-  "type": "library"
+  "type": "library",
+  "samples" : [
+    "displayName": "Samples",
+    "description": "Samples",
+    "path": "Samples~/Content"
+  ]
 }
