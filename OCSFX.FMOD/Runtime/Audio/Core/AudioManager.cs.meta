@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 40da3cae231ace8458dfa82f666d116e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _volumeSettings: {fileID: 11400000, guid: d19cf6f9cfc9a4d46a179be44b4e0d21, type: 2}
+  - _soundbanksAudioData: {fileID: 11400000, guid: 5c7d6613e363b824d863d516d9ecda3a, type: 2}
+  - _uiAudioData: {fileID: 11400000, guid: 6416c6ed03ca8244d84b1c159a543a89, type: 2}
+  - _musicAudioData: {fileID: 11400000, guid: b7a80f36c83237441b1bff5aff5fbada, type: 2}
+  - _ambienceAudioData: {fileID: 11400000, guid: 37d52ea76cdc41c45af7ccc1f9652d5c, type: 2}
+  - _snapshotsAudioData: {fileID: 11400000, guid: 09d121bc6b61dda449b4624b07f8e765, type: 2}
+  - _dialogAudioData: {fileID: 11400000, guid: 97417eebc794de3439359e1c63c2d65a, type: 2}
+  - _testGameObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

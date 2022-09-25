@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c86003af5f0d40858de76df383d03a1a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _dialogAudioData: {fileID: 11400000, guid: 97417eebc794de3439359e1c63c2d65a, type: 2}
+  - _snapshotsAudioData: {fileID: 11400000, guid: 09d121bc6b61dda449b4624b07f8e765, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
