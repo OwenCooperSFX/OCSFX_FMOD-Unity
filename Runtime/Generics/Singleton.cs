@@ -6,7 +6,7 @@ namespace OCSFX
     {
         [SerializeField] private bool _dontDestroyOnLoad;
     
-        public static T Instance;
+        public static T Instance { get; private set; }
 
         protected virtual void Awake()
         {
