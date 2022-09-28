@@ -35,8 +35,8 @@ namespace OCSFX.FMOD
         private void OnEnable() => SubscribeEvents();
         private void OnDisable() => UnsubscribeEvents();
 
-        public void StartTestEvent() => StartEvent(_testEventRef, _testGameObject);
-        public void StopTestEvent() => StopEvent(_testEventRef, _testGameObject);
+        public static void StartTestEvent() => StartEvent(Instance._testEventRef, Instance._testGameObject);
+        public static void StopTestEvent() => StopEvent(Instance._testEventRef, Instance._testGameObject);
 
         // private void LoadStartupSoundbanksAsync() =>
         //      StartCoroutine(Co_LoadStartupSoundbanks());
