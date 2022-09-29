@@ -27,11 +27,11 @@ namespace OCSFX.FMOD
         [SerializeField] [Range(0,1)] private float _voiceVolume = 1;
 
         [Header("PlayerPrefs")]
-        [SerializeField] private PlayerPrefsData _playerPrefsData;
+        private PlayerPrefsData _playerPrefsData;
 
         private const float _defaultValue = 1.0f;
         private const float _defaultMasterValue = 0.9f;
-        
+
         private void OnEnable()
         {
             MasterBanksLoaded += OnMasterBanksLoaded;
