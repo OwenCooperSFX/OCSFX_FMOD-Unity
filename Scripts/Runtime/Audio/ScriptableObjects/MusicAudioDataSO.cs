@@ -9,8 +9,6 @@ namespace OCSFX.FMOD.AudioData
     [CreateAssetMenu(menuName = "OCSFX.FMOD/Audio Data/Music Audio Data")]
     public class MusicAudioDataSO : AudioDataSO
     {
-        public enum MusicHorizontalParam { Int1, Int2, Int3, Int4, Int5, Int5Transition };
-        
         // Fields
         [Header("Music Events")]
         [SerializeField] private EventReference _mainMenu;

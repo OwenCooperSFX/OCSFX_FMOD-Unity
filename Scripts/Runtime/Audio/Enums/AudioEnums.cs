@@ -34,4 +34,14 @@
         IntLarge,
         ExtLarge
     }
+
+    public enum MusicHorizontalParam
+    {
+        Int1,
+        Int2,
+        Int3,
+        Int4,
+        Int5,
+        Transition
+    };
 }
