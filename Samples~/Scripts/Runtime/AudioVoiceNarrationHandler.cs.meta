@@ -4,8 +4,8 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - _dialogAudioData: {fileID: 11400000, guid: 97417eebc794de3439359e1c63c2d65a, type: 2}
-  - _snapshotsAudioData: {fileID: 11400000, guid: 09d121bc6b61dda449b4624b07f8e765, type: 2}
+  - _dialogAudioData: {fileID: 11400000, guid: cc5d1500d8acebf48a19e4583ae4259c, type: 2}
+  - _snapshotsAudioData: {fileID: 11400000, guid: 7215db61a20af2e47826658311b9b860, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
