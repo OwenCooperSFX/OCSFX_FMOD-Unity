@@ -1,6 +1,6 @@
 {
   "name": "com.owencoopersfx.ocsfx-fmod",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "displayName": "OwenCooperSFX FMOD",
   "description": "My templates for FMOD integration tools and extensions.\nRequires FMOD integration.\nCreated using Unity 2021.3.8 and FMODUnity package 2.02.07.",
   "unity": "2021.3",
@@ -24,12 +24,12 @@
     {
     "displayName": "Prefabs",
     "description": "Prefabs",
-    "path": "/Content/Samples~/Prefabs"
+    "path": "Samples~/Prefabs"
     },
     {
     "displayName": "Scripts",
     "description": "Scripts",
-    "path": "/Content/Samples~/Scripts"
+    "path": "Samples~/Scripts"
     }
   ]
 }
