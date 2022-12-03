@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c678b000f3402998fdfe827dff74a6, type: 3}
+  m_Name: New FMOD Object Instance Limit Manager
+  m_EditorClassIdentifier: 
+  _perObjectLimits:
+  - _key:
+      Guid:
+        Data1: -1847018830
+        Data2: 1277260041
+        Data3: 787697301
+        Data4: -377887517
+      Path: event:/SX/sx_char_fs
+    _value: 1
+  - _key:
+      Guid:
+        Data1: 48101176
+        Data2: 1234994588
+        Data3: 1886195081
+        Data4: -1423348094
+      Path: event:/SX/sx_env_barrel_explode
+    _value: 1
