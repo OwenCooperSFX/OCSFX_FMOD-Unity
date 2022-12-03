@@ -85,30 +85,32 @@ namespace OCSFX.FMOD.AudioData
             _instances.Remove(eventRefID);
         }
 
-        // Disable for GameOff2022
-        // public void SetHorizonalParameter(EventReference eventRef, MusicHorizontalParam value)
-        // {
-        //     if (!_instances.TryGetValue(eventRef.ToString(), out var instance))
-        //     {
-        //         Debug.LogError($"{eventRef.GetEventName()} not found in {this} instances.");
-        //         return;
-        //     }
-        //     
-        //     Debug.Log($"Set {eventRef.GetEventName()} parameter {_horizontalParameter} value to {value}.");
-        //     instance.setParameterByName(_horizontalParameter, (int)value);
-        // }
-        //
-        // public void SetVerticalParameter(EventReference eventRef, int value)
-        // {
-        //     if (!_instances.TryGetValue(eventRef.ToString(), out var instance))
-        //     {
-        //         Debug.LogError($"{eventRef.GetEventName()} not found in {this} instances.");
-        //         return;
-        //     }
-        //     
-        //     Debug.Log($"Set {eventRef.GetEventName()} parameter {_verticalParameter} value to {value}.");
-        //     instance.setParameterByName(_verticalParameter, value);
-        // }
+        // Enable for event-level parameters rather than global.
+        /*
+        public void SetHorizonalParameter(EventReference eventRef, MusicHorizontalParam value)
+        {
+            if (!_instances.TryGetValue(eventRef.ToString(), out var instance))
+            {
+                Debug.LogError($"{eventRef.GetEventName()} not found in {this} instances.");
+                return;
+            }
+            
+            Debug.Log($"Set {eventRef.GetEventName()} parameter {_horizontalParameter} value to {value}.");
+            instance.setParameterByName(_horizontalParameter, (int)value);
+        }
+        
+        public void SetVerticalParameter(EventReference eventRef, int value)
+        {
+            if (!_instances.TryGetValue(eventRef.ToString(), out var instance))
+            {
+                Debug.LogError($"{eventRef.GetEventName()} not found in {this} instances.");
+                return;
+            }
+            
+            Debug.Log($"Set {eventRef.GetEventName()} parameter {_verticalParameter} value to {value}.");
+            instance.setParameterByName(_verticalParameter, value);
+        }
+        */
 
         public void SetVerticalParameter(int verticalParamValue)
         {
