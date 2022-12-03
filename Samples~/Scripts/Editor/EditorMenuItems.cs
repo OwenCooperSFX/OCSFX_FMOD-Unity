@@ -1,6 +1,6 @@
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using FMODUnity;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -68,4 +68,4 @@ namespace OCSFX.FMOD
         }
     }
 }
-
+#endif

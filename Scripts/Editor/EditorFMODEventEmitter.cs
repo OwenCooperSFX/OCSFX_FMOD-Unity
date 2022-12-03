@@ -1,15 +1,16 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using FMODUnity;
 using UnityEditor;
 using UnityEngine;
 
-namespace OCSFX.FMOD
+namespace OCSFX.FMOD.Editor
 {
     [CustomEditor(typeof(FMODEventEmitter))]
     [CanEditMultipleObjects]
-    public class EditorFMODEventEmitter: Editor
+    public class EditorFMODEventEmitter: UnityEditor.Editor
     {
         private ParameterValueView parameterValueView;
 
@@ -527,3 +528,4 @@ namespace OCSFX.FMOD
         }
     }
 }
+#endif
