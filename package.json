@@ -22,9 +22,14 @@
   "type": "library",
   "samples" : [
     {
-    "displayName": "Samples",
-    "description": "Samples",
-    "path": "/Content/Samples~/"
+    "displayName": "Prefabs",
+    "description": "Prefabs",
+    "path": "/Content/Samples~/Prefabs"
+    },
+    {
+    "displayName": "Scripts",
+    "description": "Scripts",
+    "path": "/Content/Samples~/Scripts"
     }
   ]
 }
