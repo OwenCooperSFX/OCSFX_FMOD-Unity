@@ -92,5 +92,5 @@ fmod_editor.log
 /[Pp]lugins/FMOD/**/Metadata/ProfilerSession/
 
 # Ignore OCSFX Prototypes folder for release
-/OCSFX_FMOD/Prototypes/
-/OCSFX_FMOD/Prototypes.meta
+/OCSFX_FMOD/_Prototypes/
+/OCSFX_FMOD/_Prototypes.meta
