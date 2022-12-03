@@ -1,9 +1,10 @@
 {
-    "name": "OCSFX.FMOD",
+    "name": "OCSFX.FMOD.Editor",
     "rootNamespace": "",
     "references": [
-        "FMODUnity",
         "FMODUnityEditor",
+        "FMODUnity",
+        "OCSFX.FMOD",
         "UnityEditor.UI",
         "UnityEngine.UI"
     ],
